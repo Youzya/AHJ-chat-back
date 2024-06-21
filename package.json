@@ -1,0 +1,29 @@
+{
+  "name": "ahjhworkchatback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suhogruzz/AHJHworkChatBack.git"
+  },
+  "author": "Suhogruzz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suhogruzz/AHJHworkChatBack/issues"
+  },
+  "homepage": "https://github.com/Suhogruzz/AHJHworkChatBack#readme",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.0",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0"
+  }
+}
